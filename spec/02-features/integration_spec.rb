@@ -1,6 +1,6 @@
 feature "Integration Test", js: :true  do
   before(:each) do
-    visit "/"
+    visit "http://127.0.0.1:9393/"
   end
 
   it "displays the cars index page with a button to load more cars" do
